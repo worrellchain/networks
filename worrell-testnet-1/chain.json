@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chain.schema.json",
+  "chain_name": "worrelltestnet",
+  "chain_type": "cosmos",
+  "chain_id": "worrell-testnet-1",
+  "pretty_name": "Worrell Testnet",
+  "network_type": "testnet",
+  "bech32_prefix": "worrell",
+  "daemon_name": "worrelld",
+  "node_home": "$HOME/.worrell",
+  "key_algos": ["secp256k1"],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "uworrell",
+        "fixed_min_gas_price": 0.025,
+        "low_gas_price": 0.025,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      { "denom": "uworrell" }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/worrellchain/worrell",
+    "recommended_version": "52e7afe",
+    "compatible_versions": ["52e7afe"],
+    "genesis": {
+      "genesis_url": "https://raw.githubusercontent.com/worrellchain/networks/main/worrell-testnet-1/genesis.json"
+    },
+    "sdk": { "type": "cosmos", "version": "v0.53.6" },
+    "consensus": { "type": "cometbft" }
+  },
+  "peers": {
+    "seeds": [],
+    "persistent_peers": [
+      {
+        "id": "bb9164c1bd9ed9ff2c0fd9e09b23285698e231de",
+        "address": "164.68.98.186:26656",
+        "provider": "worrellchain"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [],
+    "rest": [],
+    "grpc": []
+  }
+}
