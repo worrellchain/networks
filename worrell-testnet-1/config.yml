@@ -1,0 +1,104 @@
+# Worrell — TESTNET (worrell-testnet-1)
+# Reduced times for quick testing and faucet enabled (operated by george).
+# Vesting and multisig are applied separately via setup-genesis.sh.
+version: 1
+validation: sovereign
+default_denom: uworrell
+
+accounts:
+- name: henry
+  coins:
+  - 100000000000000uworrell   # 100M WORRELL (founder, initial validator)
+- name: george
+  coins:
+  - 50000000000000uworrell    # 50M WORRELL (founder, faucet source)
+- name: charlie
+  coins:
+  - 50000000000000uworrell    # 50M WORRELL (founder)
+- name: treasury
+  coins:
+  - 300000000000000uworrell   # 300M WORRELL (multisig 3/3 in real networks)
+- name: airdrop
+  coins:
+  - 225000000000000uworrell   # 225M WORRELL (multisig 2/4 in real networks)
+- name: incentives
+  coins:
+  - 175000000000000uworrell   # 175M WORRELL (multisig 2/4 in real networks)
+- name: reserve
+  coins:
+  - 100000000000000uworrell   # 100M WORRELL (multisig 2/4 in real networks)
+
+client:
+  openapi:
+    path: docs/static/openapi.json
+
+faucet:
+  name: george
+  coins:
+  - 100000000uworrell         # 100 WORRELL per request
+  host: 0.0.0.0:4500
+
+validators:
+- name: henry
+  bonded: 20000000000000uworrell   # 20M WORRELL self-delegated -> 80M liquid after gentx
+  app:
+    minimum-gas-prices: "0.025uworrell"
+  gentx:
+    moniker: henry
+    commission-rate: "0.05"             # 5% (§7)
+    commission-max-rate: "0.25"         # 25%
+    commission-max-change-rate: "0.01"  # 1% per day
+
+genesis:
+  chain_id: worrell-testnet-1
+  consensus:
+    params:
+      block:
+        max_gas: "40000000"
+  app_state:
+    staking:
+      params:
+        bond_denom: uworrell
+        unbonding_time: "3600s"            # 1 hour
+        max_validators: 100
+        max_entries: 7
+        historical_entries: 10000
+        min_commission_rate: "0.050000000000000000"
+    mint:
+      minter:
+        inflation: "0.130000000000000000"
+      params:
+        mint_denom: uworrell
+        inflation_rate_change: "0.130000000000000000"
+        inflation_max: "0.130000000000000000"
+        inflation_min: "0.070000000000000000"
+        goal_bonded: "0.670000000000000000"
+        blocks_per_year: "6311520"
+    slashing:
+      params:
+        signed_blocks_window: "10000"
+        min_signed_per_window: "0.050000000000000000"
+        downtime_jail_duration: "300s"     # 5 min
+        slash_fraction_double_sign: "0.050000000000000000"
+        slash_fraction_downtime: "0.000100000000000000"
+    distribution:
+      params:
+        community_tax: "0.100000000000000000"
+    gov:
+      params:
+        min_deposit:
+        - denom: uworrell
+          amount: "1500000000"
+        max_deposit_period: "600s"          # 10 min
+        voting_period: "300s"               # 5 min
+        quorum: "0.334000000000000000"
+        threshold: "0.500000000000000000"
+        veto_threshold: "0.334000000000000000"
+        burn_vote_quorum: true
+        burn_proposal_deposit_prevote: false
+        burn_vote_veto: true
+        expedited_min_deposit:
+        - denom: uworrell
+          amount: "7500000000"
+        expedited_voting_period: "120s"     # 2 min
+        expedited_threshold: "0.667000000000000000"
