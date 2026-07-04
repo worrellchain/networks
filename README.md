@@ -34,6 +34,10 @@ worrelld config set config p2p.persistent_peers "bb9164c1bd9ed9ff2c0fd9e09b23285
 worrelld start
 ```
 
+For the full step-by-step validator guide (hardware, build, sync, create-validator,
+monitoring), see [docs/RUNNING-A-NODE.md](https://github.com/worrellchain/worrell/blob/main/docs/RUNNING-A-NODE.md)
+in the code repository.
+
 ## Contents of each network
 
 - **`chain.json`** — Chain Registry metadata (chain_id, peers, fees, version, genesis URL).
