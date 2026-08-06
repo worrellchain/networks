@@ -5,7 +5,7 @@
 # the reduced times (unbonding, governance, jail) for quick testing.
 # It also applies founder vesting, IBC disabled and a 40M block gas limit.
 #
-# The faucet (george, 100 WORRELL per request, :4500) is NOT part of the genesis:
+# The faucet (george, 500 WORRELL per request, :4500) is NOT part of the genesis:
 # it is a separate service started with `worrelld` / `ignite faucet`.
 #
 # It reuses the mainnet key/multisig creator (setup-multisig.sh (in this same folder)),
@@ -154,7 +154,7 @@ cat <<EOF
  genesis_time : $GTS
  Testnet times: unbonding $UNBONDING | voting $VOTING | jail $JAIL
  Total supply : 1,000,000,000 WORRELL (1000000000000000 uworrell)
- Faucet       : george, 100 WORRELL/request, :4500 (start separately)
+ Faucet       : george, 500 WORRELL/request, :4500 (start separately)
  Genesis at   : $GENESIS
 ========================================================
 EOF

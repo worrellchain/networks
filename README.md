@@ -23,7 +23,7 @@ The node source code (`worrelld`) is in
 | Genesis sha256 | `a81c507b12ba0678c3172394ff4bb03e1c3db60050cc5568c127a24ec19378fd` |
 | Persistent peer | `bb9164c1bd9ed9ff2c0fd9e09b23285698e231de@164.68.98.186:26656` |
 | Min gas price | `0.025uworrell` |
-| Faucet | `POST http://164.68.98.186:4500` with `{"address":"worrell1..."}` (100 WORRELL) |
+| Faucet | `POST http://164.68.98.186:4500` with `{"address":"worrell1..."}` (500 WORRELL) |
 
 ```bash
 # After building worrelld and `worrelld init <moniker> --chain-id worrell-testnet-1`:
