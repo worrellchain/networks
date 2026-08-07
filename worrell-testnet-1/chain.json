@@ -28,8 +28,14 @@
   },
   "codebase": {
     "git_repo": "https://github.com/worrellchain/worrell",
-    "recommended_version": "52e7afe",
-    "compatible_versions": ["52e7afe"],
+    "recommended_version": "v0.1.2",
+    "compatible_versions": ["v0.1.0", "v0.1.1", "v0.1.2"],
+    "binaries": {
+      "linux/amd64": "https://github.com/worrellchain/worrell/releases/download/v0.1.2/v0.1.2_linux_amd64.tar.gz",
+      "linux/arm64": "https://github.com/worrellchain/worrell/releases/download/v0.1.2/v0.1.2_linux_arm64.tar.gz",
+      "darwin/amd64": "https://github.com/worrellchain/worrell/releases/download/v0.1.2/v0.1.2_darwin_amd64.tar.gz",
+      "darwin/arm64": "https://github.com/worrellchain/worrell/releases/download/v0.1.2/v0.1.2_darwin_arm64.tar.gz"
+    },
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/worrellchain/networks/main/worrell-testnet-1/genesis.json"
     },
