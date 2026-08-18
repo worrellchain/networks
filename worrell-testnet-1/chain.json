@@ -4,11 +4,14 @@
   "chain_type": "cosmos",
   "chain_id": "worrell-testnet-1",
   "pretty_name": "Worrell Testnet",
+  "website": "https://worrellchain.com",
   "network_type": "testnet",
   "bech32_prefix": "worrell",
   "daemon_name": "worrelld",
   "node_home": "$HOME/.worrell",
-  "key_algos": ["secp256k1"],
+  "key_algos": [
+    "secp256k1"
+  ],
   "slip44": 118,
   "fees": {
     "fee_tokens": [
@@ -23,13 +26,19 @@
   },
   "staking": {
     "staking_tokens": [
-      { "denom": "uworrell" }
+      {
+        "denom": "uworrell"
+      }
     ]
   },
   "codebase": {
     "git_repo": "https://github.com/worrellchain/worrell",
     "recommended_version": "v0.1.2",
-    "compatible_versions": ["v0.1.0", "v0.1.1", "v0.1.2"],
+    "compatible_versions": [
+      "v0.1.0",
+      "v0.1.1",
+      "v0.1.2"
+    ],
     "binaries": {
       "linux/amd64": "https://github.com/worrellchain/worrell/releases/download/v0.1.2/v0.1.2_linux_amd64.tar.gz",
       "linux/arm64": "https://github.com/worrellchain/worrell/releases/download/v0.1.2/v0.1.2_linux_arm64.tar.gz",
@@ -39,8 +48,13 @@
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/worrellchain/networks/main/worrell-testnet-1/genesis.json"
     },
-    "sdk": { "type": "cosmos", "version": "v0.53.6" },
-    "consensus": { "type": "cometbft" }
+    "sdk": {
+      "type": "cosmos",
+      "version": "v0.53.6"
+    },
+    "consensus": {
+      "type": "cometbft"
+    }
   },
   "peers": {
     "seeds": [],
@@ -56,5 +70,9 @@
     "rpc": [],
     "rest": [],
     "grpc": []
+  },
+  "socials": {
+    "telegram": "https://t.me/worrellvalidators",
+    "twitter": "https://x.com/worrellchain"
   }
 }

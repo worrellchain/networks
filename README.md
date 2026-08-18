@@ -24,6 +24,8 @@ The node source code (`worrelld`) is in
 | Persistent peer | `bb9164c1bd9ed9ff2c0fd9e09b23285698e231de@164.68.98.186:26656` |
 | Min gas price | `0.025uworrell` |
 | Faucet | `POST http://164.68.98.186:4500` with `{"address":"worrell1..."}` (500 WORRELL) |
+| Validator announcements | Telegram [t.me/worrellvalidators](https://t.me/worrellvalidators) — upgrades, governance, coordination |
+| Questions / support | [GitHub Discussions](https://github.com/worrellchain/worrell/discussions) · hello@worrellchain.com |
 
 ```bash
 # After building worrelld and `worrelld init <moniker> --chain-id worrell-testnet-1`:
