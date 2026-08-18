@@ -28,11 +28,12 @@ The node source code (`worrelld`) is in
 | Questions / support | [GitHub Discussions](https://github.com/worrellchain/worrell/discussions) · hello@worrellchain.com |
 
 ```bash
-# After building worrelld and `worrelld init <moniker> --chain-id worrell-testnet-1`:
+# After installing worrelld and running `worrelld init <moniker> --chain-id worrell-testnet-1`:
 curl -s https://raw.githubusercontent.com/worrellchain/networks/main/worrell-testnet-1/genesis.json \
   -o ~/.worrell/config/genesis.json
-worrelld config set config p2p.persistent_peers "bb9164c1bd9ed9ff2c0fd9e09b23285698e231de@164.68.98.186:26656"
-# set minimum-gas-prices = "0.025uworrell" in app.toml, then:
+sha256sum ~/.worrell/config/genesis.json   # must match the hash above
+sed -i 's|^persistent_peers = .*|persistent_peers = "bb9164c1bd9ed9ff2c0fd9e09b23285698e231de@164.68.98.186:26656"|' ~/.worrell/config/config.toml
+sed -i 's|^minimum-gas-prices = .*|minimum-gas-prices = "0.025uworrell"|' ~/.worrell/config/app.toml
 worrelld start
 ```
 
