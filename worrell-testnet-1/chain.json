@@ -83,8 +83,8 @@
   "explorers": [
     {
       "kind": "anode",
-      "url": "https://main.anode.team/worrell",
-      "tx_page": "https://main.anode.team/worrell/tx/${txHash}"
+      "url": "https://test.anode.team/worrell",
+      "tx_page": "https://test.anode.team/worrell/tx/${txHash}"
     }
   ]
 }
