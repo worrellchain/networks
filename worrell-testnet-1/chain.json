@@ -68,11 +68,23 @@
   },
   "apis": {
     "rpc": [],
-    "rest": [],
+    "rest": [
+      {
+        "address": "https://worrell.api.t.anode.team",
+        "provider": "ANODE.TEAM"
+      }
+    ],
     "grpc": []
   },
   "socials": {
     "telegram": "https://t.me/worrellvalidators",
     "twitter": "https://x.com/worrellchain"
-  }
+  },
+  "explorers": [
+    {
+      "kind": "anode",
+      "url": "https://main.anode.team/worrell",
+      "tx_page": "https://main.anode.team/worrell/tx/${txHash}"
+    }
+  ]
 }
