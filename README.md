@@ -25,8 +25,10 @@ The node source code (`worrelld`) is in
 | Min gas price | `0.025uworrell` |
 | Faucet | `POST http://164.68.98.186:4500` with `{"address":"worrell1..."}` (500 WORRELL) |
 | Validator announcements | Telegram [t.me/worrellvalidators](https://t.me/worrellvalidators) — upgrades, governance, coordination |
-| Explorer | [test.anode.team/worrell](https://test.anode.team/worrell) (community-run by [ANODE.TEAM](https://anode.team)) |
+| Explorers | [test.anode.team/worrell](https://test.anode.team/worrell) (community-run by [ANODE.TEAM](https://anode.team)) · [explorer.oshvank.xyz/worrel-testnet](https://explorer.oshvank.xyz/worrel-testnet) (community-run by [OshVanK](https://oshvank.xyz)) |
 | Public REST API | `https://worrell.api.t.anode.team` (community-run by ANODE.TEAM) |
+| Public RPC | `https://worrel-testnet-rpc.oshvank.xyz` (community-run by OshVanK) |
+| Community guides | [docs.oshvank.xyz/docs/testnet/Worrel](https://docs.oshvank.xyz/docs/testnet/Worrel) (by OshVanK) |
 | Questions / support | [GitHub Discussions](https://github.com/worrellchain/worrell/discussions) · hello@worrellchain.com |
 
 ```bash

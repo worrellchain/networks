@@ -67,7 +67,12 @@
     ]
   },
   "apis": {
-    "rpc": [],
+    "rpc": [
+      {
+        "address": "https://worrel-testnet-rpc.oshvank.xyz",
+        "provider": "OshVanK"
+      }
+    ],
     "rest": [
       {
         "address": "https://worrell.api.t.anode.team",
@@ -85,6 +90,11 @@
       "kind": "anode",
       "url": "https://test.anode.team/worrell",
       "tx_page": "https://test.anode.team/worrell/tx/${txHash}"
+    },
+    {
+      "kind": "oshvank",
+      "url": "https://explorer.oshvank.xyz/worrel-testnet",
+      "tx_page": "https://explorer.oshvank.xyz/worrel-testnet/tx/${txHash}"
     }
   ]
 }
