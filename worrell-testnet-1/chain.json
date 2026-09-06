@@ -95,6 +95,11 @@
       "kind": "oshvank",
       "url": "https://explorer.oshvank.xyz/worrel-testnet",
       "tx_page": "https://explorer.oshvank.xyz/worrel-testnet/tx/${txHash}"
+    },
+    {
+      "kind": "husonode",
+      "url": "https://explorer.husonode.xyz/Worrell-Testnet",
+      "tx_page": "https://explorer.husonode.xyz/Worrell-Testnet/tx/${txHash}"
     }
   ]
 }
