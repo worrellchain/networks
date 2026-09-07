@@ -63,6 +63,11 @@
         "id": "bb9164c1bd9ed9ff2c0fd9e09b23285698e231de",
         "address": "164.68.98.186:26656",
         "provider": "worrellchain"
+      },
+      {
+        "id": "40128ea31b1cfb5d4b24fc9e32ee0c468586c983",
+        "address": "worrell-testnet-peer.itrocket.net:12656",
+        "provider": "ITRocket"
       }
     ]
   },
@@ -71,15 +76,28 @@
       {
         "address": "https://worrel-testnet-rpc.oshvank.xyz",
         "provider": "OshVanK"
+      },
+      {
+        "address": "https://worrell-testnet-rpc.itrocket.net",
+        "provider": "ITRocket"
       }
     ],
     "rest": [
       {
         "address": "https://worrell.api.t.anode.team",
         "provider": "ANODE.TEAM"
+      },
+      {
+        "address": "https://worrell-testnet-api.itrocket.net",
+        "provider": "ITRocket"
       }
     ],
-    "grpc": []
+    "grpc": [
+      {
+        "address": "worrell-testnet-grpc.itrocket.net:443",
+        "provider": "ITRocket"
+      }
+    ]
   },
   "socials": {
     "telegram": "https://t.me/worrellvalidators",

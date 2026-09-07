@@ -27,8 +27,10 @@ The node source code (`worrelld`) is in
 | Validator announcements | Telegram [t.me/worrellvalidators](https://t.me/worrellvalidators) — upgrades, governance, coordination |
 | Explorers | [test.anode.team/worrell](https://test.anode.team/worrell) (community-run by [ANODE.TEAM](https://anode.team)) · [explorer.oshvank.xyz/worrel-testnet](https://explorer.oshvank.xyz/worrel-testnet) (community-run by [OshVanK](https://oshvank.xyz)) · [explorer.husonode.xyz/Worrell-Testnet](https://explorer.husonode.xyz/Worrell-Testnet) (community-run by [HusoNode](https://husonode.xyz)) |
 | Public REST API | `https://worrell.api.t.anode.team` (community-run by ANODE.TEAM) |
-| Public RPC | `https://worrel-testnet-rpc.oshvank.xyz` (community-run by OshVanK) |
+| Public RPC | `https://worrel-testnet-rpc.oshvank.xyz` (community-run by OshVanK) · `https://worrell-testnet-rpc.itrocket.net` (community-run by ITRocket) |
 | Community guides | [docs.oshvank.xyz/docs/testnet/Worrel](https://docs.oshvank.xyz/docs/testnet/Worrel) (by OshVanK) |
+| ITRocket services | [itrocket.net/services/testnet/worrell](https://itrocket.net/services/testnet/worrell/) — endpoints (RPC/API/gRPC), snapshots, state sync, seed node, installer, analytics, governance bot (community-run by [ITRocket](https://itrocket.net)) |
+| Extra peer | `40128ea31b1cfb5d4b24fc9e32ee0c468586c983@worrell-testnet-peer.itrocket.net:12656` (ITRocket) |
 | Questions / support | [GitHub Discussions](https://github.com/worrellchain/worrell/discussions) · hello@worrellchain.com |
 
 ```bash
