@@ -31,6 +31,7 @@ The node source code (`worrelld`) is in
 | Public gRPC | `worrell-testnet-grpc.itrocket.net:443` (community-run by ITRocket) · `worrell-testnet-grpc.bonynode.online:443` (community-run by BonyNode) |
 | BonyNode services | [bonynode.online/services/testnet/worrell](https://bonynode.online/services/testnet/worrell/) (community-run by BonyNode) |
 | Sychonix services | [sychonix.com/testnet/worrell](https://sychonix.com/testnet/worrell/) — installation guide, addrbook, genesis, live peers, seeds, RPC, API, snapshots every 6h (community-run by Sychonix) |
+| Kynraze services | [kynraze.com/testnet/worrell](https://kynraze.com/testnet/worrell) — RPC, API, gRPC and faucet (community-run by [Kynraze](https://kynraze.com)) |
 | Community guides | [docs.oshvank.xyz/docs/testnet/Worrel](https://docs.oshvank.xyz/docs/testnet/Worrel) (by OshVanK) · [codeblocklabs.com/docs/cosmos/worrell](https://codeblocklabs.com/docs/cosmos/worrell) (by CodeBlockLabs) |
 | ITRocket services | [itrocket.net/services/testnet/worrell](https://itrocket.net/services/testnet/worrell/) — endpoints (RPC/API/gRPC), snapshots, state sync, seed node, installer, analytics, governance bot (community-run by [ITRocket](https://itrocket.net)) |
 | Extra peer | `40128ea31b1cfb5d4b24fc9e32ee0c468586c983@worrell-testnet-peer.itrocket.net:12656` (ITRocket) |
