@@ -148,6 +148,11 @@
       "kind": "bonynode",
       "url": "https://explorer.bonynode.online/worrell-testnet",
       "tx_page": "https://explorer.bonynode.online/worrell-testnet/tx/${txHash}"
+    },
+    {
+      "kind": "sychonix",
+      "url": "https://explorer.sychonix.com/Worrell-Testnet",
+      "tx_page": "https://explorer.sychonix.com/Worrell-Testnet/tx/${txHash}"
     }
   ]
 }
