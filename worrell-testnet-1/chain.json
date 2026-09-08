@@ -92,6 +92,10 @@
       {
         "address": "https://rpc-worrell.test.onenov.xyz",
         "provider": "OneNov"
+      },
+      {
+        "address": "https://worrellchain-rpctest.codeblocklabs.com",
+        "provider": "CodeBlockLabs"
       }
     ],
     "rest": [
@@ -114,6 +118,10 @@
       {
         "address": "https://api-worrell.test.onenov.xyz",
         "provider": "OneNov"
+      },
+      {
+        "address": "https://worrellchain-apitest.codeblocklabs.com",
+        "provider": "CodeBlockLabs"
       }
     ],
     "grpc": [
@@ -166,6 +174,11 @@
       "kind": "onenov",
       "url": "https://explorer.onenov.xyz/worrell-testnet",
       "tx_page": "https://explorer.onenov.xyz/worrell-testnet/tx/${txHash}"
+    },
+    {
+      "kind": "codeblocklabs",
+      "url": "https://explorer.codeblocklabs.com/worrellchain-testnet",
+      "tx_page": "https://explorer.codeblocklabs.com/worrellchain-testnet/tx/${txHash}"
     }
   ]
 }
