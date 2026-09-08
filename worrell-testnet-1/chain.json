@@ -80,6 +80,10 @@
       {
         "address": "https://worrell-testnet-rpc.itrocket.net",
         "provider": "ITRocket"
+      },
+      {
+        "address": "https://worrell-testnet-rpc.nodesync.top",
+        "provider": "NODESYNC"
       }
     ],
     "rest": [
@@ -90,6 +94,10 @@
       {
         "address": "https://worrell-testnet-api.itrocket.net",
         "provider": "ITRocket"
+      },
+      {
+        "address": "https://worrell-testnet-api.nodesync.top",
+        "provider": "NODESYNC"
       }
     ],
     "grpc": [
@@ -118,6 +126,11 @@
       "kind": "husonode",
       "url": "https://explorer.husonode.xyz/Worrell-Testnet",
       "tx_page": "https://explorer.husonode.xyz/Worrell-Testnet/tx/${txHash}"
+    },
+    {
+      "kind": "nodesync",
+      "url": "https://explorer.nodesync.top/Worrell-Testnet",
+      "tx_page": "https://explorer.nodesync.top/Worrell-Testnet/tx/${txHash}"
     }
   ]
 }
