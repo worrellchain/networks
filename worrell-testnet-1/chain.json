@@ -84,6 +84,10 @@
       {
         "address": "https://worrell-testnet-rpc.nodesync.top",
         "provider": "NODESYNC"
+      },
+      {
+        "address": "https://worrell-testnet-rpc.bonynode.online",
+        "provider": "BonyNode"
       }
     ],
     "rest": [
@@ -98,12 +102,20 @@
       {
         "address": "https://worrell-testnet-api.nodesync.top",
         "provider": "NODESYNC"
+      },
+      {
+        "address": "https://worrell-testnet-api.bonynode.online",
+        "provider": "BonyNode"
       }
     ],
     "grpc": [
       {
         "address": "worrell-testnet-grpc.itrocket.net:443",
         "provider": "ITRocket"
+      },
+      {
+        "address": "worrell-testnet-grpc.bonynode.online:443",
+        "provider": "BonyNode"
       }
     ]
   },
@@ -131,6 +143,11 @@
       "kind": "nodesync",
       "url": "https://explorer.nodesync.top/Worrell-Testnet",
       "tx_page": "https://explorer.nodesync.top/Worrell-Testnet/tx/${txHash}"
+    },
+    {
+      "kind": "bonynode",
+      "url": "https://explorer.bonynode.online/worrell-testnet",
+      "tx_page": "https://explorer.bonynode.online/worrell-testnet/tx/${txHash}"
     }
   ]
 }
