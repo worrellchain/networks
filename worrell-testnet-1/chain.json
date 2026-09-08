@@ -88,6 +88,10 @@
       {
         "address": "https://worrell-testnet-rpc.bonynode.online",
         "provider": "BonyNode"
+      },
+      {
+        "address": "https://rpc-worrell.test.onenov.xyz",
+        "provider": "OneNov"
       }
     ],
     "rest": [
@@ -106,6 +110,10 @@
       {
         "address": "https://worrell-testnet-api.bonynode.online",
         "provider": "BonyNode"
+      },
+      {
+        "address": "https://api-worrell.test.onenov.xyz",
+        "provider": "OneNov"
       }
     ],
     "grpc": [
@@ -153,6 +161,11 @@
       "kind": "sychonix",
       "url": "https://explorer.sychonix.com/Worrell-Testnet",
       "tx_page": "https://explorer.sychonix.com/Worrell-Testnet/tx/${txHash}"
+    },
+    {
+      "kind": "onenov",
+      "url": "https://explorer.onenov.xyz/worrell-testnet",
+      "tx_page": "https://explorer.onenov.xyz/worrell-testnet/tx/${txHash}"
     }
   ]
 }
