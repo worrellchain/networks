@@ -192,6 +192,11 @@
       "kind": "utsa",
       "url": "https://explorer.utsa.tech/networks/worrell-testnet",
       "tx_page": "https://explorer.utsa.tech/networks/worrell-testnet/tx/${txHash}"
+    },
+    {
+      "kind": "vinjan",
+      "url": "https://explorer.vinjan-inc.com/worrell-testnet",
+      "tx_page": "https://explorer.vinjan-inc.com/worrell-testnet/tx/${txHash}"
     }
   ]
 }
