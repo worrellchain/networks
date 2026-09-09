@@ -96,6 +96,10 @@
       {
         "address": "https://worrellchain-rpctest.codeblocklabs.com",
         "provider": "CodeBlockLabs"
+      },
+      {
+        "address": "https://t-worrell.rpc.utsa.tech",
+        "provider": "UTSA"
       }
     ],
     "rest": [
@@ -122,6 +126,10 @@
       {
         "address": "https://worrellchain-apitest.codeblocklabs.com",
         "provider": "CodeBlockLabs"
+      },
+      {
+        "address": "https://t-worrell.api.utsa.tech",
+        "provider": "UTSA"
       }
     ],
     "grpc": [
@@ -179,6 +187,11 @@
       "kind": "codeblocklabs",
       "url": "https://explorer.codeblocklabs.com/worrellchain-testnet",
       "tx_page": "https://explorer.codeblocklabs.com/worrellchain-testnet/tx/${txHash}"
+    },
+    {
+      "kind": "utsa",
+      "url": "https://explorer.utsa.tech/networks/worrell-testnet",
+      "tx_page": "https://explorer.utsa.tech/networks/worrell-testnet/tx/${txHash}"
     }
   ]
 }
