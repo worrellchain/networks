@@ -100,6 +100,10 @@
       {
         "address": "https://t-worrell.rpc.utsa.tech",
         "provider": "UTSA"
+      },
+      {
+        "address": "https://rpc-worrell.dnsarz.net",
+        "provider": "dnsarz"
       }
     ],
     "rest": [
@@ -130,6 +134,10 @@
       {
         "address": "https://t-worrell.api.utsa.tech",
         "provider": "UTSA"
+      },
+      {
+        "address": "https://api-worrell.dnsarz.net",
+        "provider": "dnsarz"
       }
     ],
     "grpc": [
@@ -197,6 +205,16 @@
       "kind": "vinjan",
       "url": "https://explorer.vinjan-inc.com/worrell-testnet",
       "tx_page": "https://explorer.vinjan-inc.com/worrell-testnet/tx/${txHash}"
+    },
+    {
+      "kind": "eserckr",
+      "url": "https://eserckr.xyz/explorer/worrell",
+      "tx_page": "https://eserckr.xyz/explorer/worrell/tx/${txHash}"
+    },
+    {
+      "kind": "dnsarz",
+      "url": "https://explorer.dnsarz.net/Worrell/",
+      "tx_page": "https://explorer.dnsarz.net/Worrell/tx/${txHash}"
     }
   ]
 }
