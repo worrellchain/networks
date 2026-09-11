@@ -68,6 +68,11 @@
         "id": "40128ea31b1cfb5d4b24fc9e32ee0c468586c983",
         "address": "worrell-testnet-peer.itrocket.net:12656",
         "provider": "ITRocket"
+      },
+      {
+        "id": "e812f08760b18ed774369e899763735f80179f76",
+        "address": "peer-worrell.grandvalleys.com:17656",
+        "provider": "Grand Valley"
       }
     ]
   },
@@ -104,6 +109,10 @@
       {
         "address": "https://rpc-worrell.dnsarz.net",
         "provider": "dnsarz"
+      },
+      {
+        "address": "https://lightnode-rpc-worrell.grandvalleys.com",
+        "provider": "Grand Valley"
       }
     ],
     "rest": [
