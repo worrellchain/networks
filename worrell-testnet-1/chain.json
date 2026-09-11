@@ -215,6 +215,11 @@
       "kind": "dnsarz",
       "url": "https://explorer.dnsarz.net/Worrell/",
       "tx_page": "https://explorer.dnsarz.net/Worrell/tx/${txHash}"
+    },
+    {
+      "kind": "nodestake",
+      "url": "https://explorer.nodestake.org/worrell-testnet",
+      "tx_page": "https://explorer.nodestake.org/worrell-testnet/tx/${txHash}"
     }
   ]
 }
