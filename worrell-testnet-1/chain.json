@@ -73,6 +73,11 @@
         "id": "e812f08760b18ed774369e899763735f80179f76",
         "address": "peer-worrell.grandvalleys.com:17656",
         "provider": "Grand Valley"
+      },
+      {
+        "id": "56e85e374f58d3aa76f96c07c51f447674e5de19",
+        "address": "testnet.worrell.rpc.srv.stakr.space:28656",
+        "provider": "STAKR.space"
       }
     ]
   },
@@ -113,6 +118,10 @@
       {
         "address": "https://lightnode-rpc-worrell.grandvalleys.com",
         "provider": "Grand Valley"
+      },
+      {
+        "address": "https://testnet.worrell.rpc.srv.stakr.space",
+        "provider": "STAKR.space"
       }
     ],
     "rest": [
@@ -147,6 +156,10 @@
       {
         "address": "https://api-worrell.dnsarz.net",
         "provider": "dnsarz"
+      },
+      {
+        "address": "https://testnet.worrell.api.srv.stakr.space",
+        "provider": "STAKR.space"
       }
     ],
     "grpc": [
@@ -157,6 +170,10 @@
       {
         "address": "worrell-testnet-grpc.bonynode.online:443",
         "provider": "BonyNode"
+      },
+      {
+        "address": "testnet.worrell.rpc.srv.stakr.space:28090",
+        "provider": "STAKR.space"
       }
     ]
   },
@@ -229,6 +246,11 @@
       "kind": "nodestake",
       "url": "https://explorer.nodestake.org/worrell-testnet",
       "tx_page": "https://explorer.nodestake.org/worrell-testnet/tx/${txHash}"
+    },
+    {
+      "kind": "stakr.space",
+      "url": "https://testnet.explorer.stakr.space/worrell",
+      "tx_page": "https://testnet.explorer.stakr.space/worrell/tx/${txHash}"
     }
   ]
 }
