@@ -1,0 +1,4057 @@
+{
+  "app_name": "worrelld",
+  "app_version": "v0.2.0",
+  "genesis_time": "2026-11-10T08:00:00Z",
+  "chain_id": "worrell-testnet-2",
+  "initial_height": 1,
+  "app_hash": null,
+  "app_state": {
+    "06-solomachine": null,
+    "07-tendermint": null,
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1d92px2ztm2ma7la53whlxydhp2snxvqt5s2k7t",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell10r2gldax2d4e43d2ynsrkwtkrwdwgac7m87nqr",
+          "pub_key": null,
+          "account_number": "1",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1fefmaqrd3f9vczv8q5hw8e6enqvmq4q4hsepcx",
+          "pub_key": null,
+          "account_number": "2",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell12c3yau37q092fdzdt7fumd5tth4d5s4c4y8eqn",
+          "pub_key": null,
+          "account_number": "3",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1ky7kx7gmxy2vn53kjl9lntdfhcqyp8a4me89sg",
+          "pub_key": null,
+          "account_number": "4",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell139yqf5jqqdgltcsupakxja4j67fpu44th9eapm",
+          "pub_key": null,
+          "account_number": "5",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1u7pv6av3zwexzu6na0t8a8wwgwc0dazhrxkuar",
+          "pub_key": null,
+          "account_number": "6",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1txn5z0tczq8hulcc8a003w74956275zjccyj8f",
+          "pub_key": null,
+          "account_number": "7",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell14h9hpvhpnssgha94uuhsvuc5xmzmkv2r4dqyed",
+          "pub_key": null,
+          "account_number": "8",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1mejj0a2mwtl4hnkqqpqzxuux6uvrmxhlect2sw",
+          "pub_key": null,
+          "account_number": "9",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell15knmn6jdz42q5hv36x8l9t4kkpsjmg4njsdcqd",
+          "pub_key": null,
+          "account_number": "10",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1txve0qa4d4v29expjvrfraah89atsk9uhx7yqt",
+          "pub_key": null,
+          "account_number": "11",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1k0fpwgzku4953l3sllsynk3fpfw37wfv6n6tek",
+          "pub_key": null,
+          "account_number": "12",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1j8043c3r3y43wcm539xhgvdemc69vhajxu8t48",
+          "pub_key": null,
+          "account_number": "13",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell15e9krru9gf9vcvpsfra7wd2y3mvnyg4kh2m9x5",
+          "pub_key": null,
+          "account_number": "14",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1x8j2rmwpqmfk9wu3hkc8kl7dwqjmykuv37jpeq",
+          "pub_key": null,
+          "account_number": "15",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1sqy5tgp8nl2rwz6yzrmpzt66ak4ywx24q3zfwp",
+          "pub_key": null,
+          "account_number": "16",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1mw9eslp6q89qarmgwvgxd7tmnnux8hn0mcpnw7",
+          "pub_key": null,
+          "account_number": "17",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1tdggnucuajwj0u36lfvnz8vp4m995le4vmutr6",
+          "pub_key": null,
+          "account_number": "18",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1glwq06kg6rhjyg2xqdtnpwyd29mkga3j3n0xfn",
+          "pub_key": null,
+          "account_number": "19",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell15pjlz65mr5fg33lsve26n4anuw8jclegtvnuj2",
+          "pub_key": null,
+          "account_number": "20",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell15sf2gye5g6aacl3rkm6kf43fwjcwv0wf0ne6dv",
+          "pub_key": null,
+          "account_number": "21",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell192kfc5rpmq7c965jz9xm0wl6ceegp2yytca90n",
+          "pub_key": null,
+          "account_number": "22",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell19e7tuhm9pksaemt6nx9239q5uekj2pa0rgmmml",
+          "pub_key": null,
+          "account_number": "23",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1wnah30wg0tzy2rf46try2n9pqtaxtzvd8pf4w0",
+          "pub_key": null,
+          "account_number": "24",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1mewc5qy0ejpa5njlq7tapzz2a4fgzqfkffdh5p",
+          "pub_key": null,
+          "account_number": "25",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1h6exyuxnhlrp5c6cvvj5sp3699sk6qv4su5xzt",
+          "pub_key": null,
+          "account_number": "26",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell16fujrjhztcg0pgplpud2skgffrknefsdxt5u0d",
+          "pub_key": null,
+          "account_number": "27",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell10cr0zvxsk0llu6c5l4fe9de4wsgglzmwhf964g",
+          "pub_key": null,
+          "account_number": "28",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1qk3892z6k2hmsqmezp28gxvnr7wk9g3h9zgust",
+          "pub_key": null,
+          "account_number": "29",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell129nxxp06kv00f4r54u7tflauqsvn35e6c7y4gx",
+          "pub_key": null,
+          "account_number": "30",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1g0q5l96u5m8697c68gdecy7c7turfxgzry0mye",
+          "pub_key": null,
+          "account_number": "31",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1v7jdqgzrctc75hewrve6c23g0vkh3f3gz8mg5d",
+          "pub_key": null,
+          "account_number": "32",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1y6zju7cyd04whfqytfnuhe3waryg8arr590m30",
+          "pub_key": null,
+          "account_number": "33",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1mtdd4v5vnal4e9jzgy9tqkga747x38lk82spvr",
+          "pub_key": null,
+          "account_number": "34",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1774m8jl6nlht8h8eqlzed6e3kg07dsf2nsgj06",
+          "pub_key": null,
+          "account_number": "35",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1n85az56umg4p4shtnuf45dpdhmrtfqznx46x96",
+          "pub_key": null,
+          "account_number": "36",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell138rqtjrjv9aj5upn5zaa0zcy0p3trl62zrnnlg",
+          "pub_key": null,
+          "account_number": "37",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell130y2ua2kftp5u59ldj67l2m2djraxzw2g9qr0e",
+          "pub_key": null,
+          "account_number": "38",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell18caymk7fre47ysaea3u4u9pum8aw52syxcyg9j",
+          "pub_key": null,
+          "account_number": "39",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell14my3wqrak6xw8tlpe0nr5yg0k2w745e838h3e6",
+          "pub_key": null,
+          "account_number": "40",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell14ewmpfk37vgtwjwhev4h89fjdglj6fek6m3j94",
+          "pub_key": null,
+          "account_number": "41",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1jfdc89zl2ufktg22e0wpj3yselpax3px4hvla5",
+          "pub_key": null,
+          "account_number": "42",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1y8kw89rcputshws772gmqqh63z4s3dfvhs3s5v",
+          "pub_key": null,
+          "account_number": "43",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "worrell17cmj0rdk49fq0m5fkxzf2jlhynhkrx5v8gmcyl",
+              "pub_key": null,
+              "account_number": "44",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uworrell",
+                "amount": "100000000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1920528000"
+          },
+          "start_time": "1825855200"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1vgc58d95rnf4jsx7gvlzd6n48cpfe5kj58u62d",
+          "pub_key": null,
+          "account_number": "45",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "worrell1fa6syhfxzjuwc7w4usv0sqdxqc07e6mwn8jjme",
+              "pub_key": null,
+              "account_number": "46",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "uworrell",
+                "amount": "50000000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1920528000"
+          },
+          "start_time": "1825855200"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell18u529wsqhcf5c2q0wxh24gf97l97ez872qn4lm",
+          "pub_key": null,
+          "account_number": "47",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell19f0rcs5xwfxlyx88nzlvcxqdym0pf2gpz6cwrt",
+          "pub_key": null,
+          "account_number": "48",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell1e0gw4vemq6d068yk69let9nn7ptpge90guwsm4",
+          "pub_key": null,
+          "account_number": "49",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "worrell167ajeectr08lfnuatlredh5z0gwtu5exh2mmze",
+          "pub_key": null,
+          "account_number": "50",
+          "sequence": "0"
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "worrell1qk3892z6k2hmsqmezp28gxvnr7wk9g3h9zgust",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1y8kw89rcputshws772gmqqh63z4s3dfvhs3s5v",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1y6zju7cyd04whfqytfnuhe3waryg8arr590m30",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell19f0rcs5xwfxlyx88nzlvcxqdym0pf2gpz6cwrt",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "225000000000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell192kfc5rpmq7c965jz9xm0wl6ceegp2yytca90n",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell19e7tuhm9pksaemt6nx9239q5uekj2pa0rgmmml",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1x8j2rmwpqmfk9wu3hkc8kl7dwqjmykuv37jpeq",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell18caymk7fre47ysaea3u4u9pum8aw52syxcyg9j",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell18u529wsqhcf5c2q0wxh24gf97l97ez872qn4lm",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "300000000000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1g0q5l96u5m8697c68gdecy7c7turfxgzry0mye",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1glwq06kg6rhjyg2xqdtnpwyd29mkga3j3n0xfn",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1fefmaqrd3f9vczv8q5hw8e6enqvmq4q4hsepcx",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1fa6syhfxzjuwc7w4usv0sqdxqc07e6mwn8jjme",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "50000005000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell129nxxp06kv00f4r54u7tflauqsvn35e6c7y4gx",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell12c3yau37q092fdzdt7fumd5tth4d5s4c4y8eqn",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1txve0qa4d4v29expjvrfraah89atsk9uhx7yqt",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1txn5z0tczq8hulcc8a003w74956275zjccyj8f",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1tdggnucuajwj0u36lfvnz8vp4m995le4vmutr6",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1vgc58d95rnf4jsx7gvlzd6n48cpfe5kj58u62d",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1v7jdqgzrctc75hewrve6c23g0vkh3f3gz8mg5d",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1d92px2ztm2ma7la53whlxydhp2snxvqt5s2k7t",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1wnah30wg0tzy2rf46try2n9pqtaxtzvd8pf4w0",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell10r2gldax2d4e43d2ynsrkwtkrwdwgac7m87nqr",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell10cr0zvxsk0llu6c5l4fe9de4wsgglzmwhf964g",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1sqy5tgp8nl2rwz6yzrmpzt66ak4ywx24q3zfwp",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell139yqf5jqqdgltcsupakxja4j67fpu44th9eapm",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell138rqtjrjv9aj5upn5zaa0zcy0p3trl62zrnnlg",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell130y2ua2kftp5u59ldj67l2m2djraxzw2g9qr0e",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1j8043c3r3y43wcm539xhgvdemc69vhajxu8t48",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1jfdc89zl2ufktg22e0wpj3yselpax3px4hvla5",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1n85az56umg4p4shtnuf45dpdhmrtfqznx46x96",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell15pjlz65mr5fg33lsve26n4anuw8jclegtvnuj2",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell15sf2gye5g6aacl3rkm6kf43fwjcwv0wf0ne6dv",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell15knmn6jdz42q5hv36x8l9t4kkpsjmg4njsdcqd",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell15e9krru9gf9vcvpsfra7wd2y3mvnyg4kh2m9x5",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell14h9hpvhpnssgha94uuhsvuc5xmzmkv2r4dqyed",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell14ewmpfk37vgtwjwhev4h89fjdglj6fek6m3j94",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell14my3wqrak6xw8tlpe0nr5yg0k2w745e838h3e6",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1ky7kx7gmxy2vn53kjl9lntdfhcqyp8a4me89sg",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1k0fpwgzku4953l3sllsynk3fpfw37wfv6n6tek",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1h6exyuxnhlrp5c6cvvj5sp3699sk6qv4su5xzt",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1e0gw4vemq6d068yk69let9nn7ptpge90guwsm4",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "174977990000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell16fujrjhztcg0pgplpud2skgffrknefsdxt5u0d",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell167ajeectr08lfnuatlredh5z0gwtu5exh2mmze",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "100000000000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1mtdd4v5vnal4e9jzgy9tqkga747x38lk82spvr",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1mw9eslp6q89qarmgwvgxd7tmnnux8hn0mcpnw7",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1mewc5qy0ejpa5njlq7tapzz2a4fgzqfkffdh5p",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1mejj0a2mwtl4hnkqqpqzxuux6uvrmxhlect2sw",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1u7pv6av3zwexzu6na0t8a8wwgwc0dazhrxkuar",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell17cmj0rdk49fq0m5fkxzf2jlhynhkrx5v8gmcyl",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "100000005000000"
+            }
+          ]
+        },
+        {
+          "address": "worrell1774m8jl6nlht8h8eqlzed6e3kg07dsf2nsgj06",
+          "coins": [
+            {
+              "denom": "uworrell",
+              "amount": "500000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "uworrell",
+          "amount": "1000000000000000"
+        }
+      ],
+      "denom_metadata": [
+        {
+          "description": "The native token of Worrell.",
+          "denom_units": [
+            {
+              "denom": "uworrell",
+              "exponent": 0,
+              "aliases": [
+                "microworrell"
+              ]
+            },
+            {
+              "denom": "WORRELL",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "uworrell",
+          "display": "WORRELL",
+          "name": "Worrell",
+          "symbol": "WORRELL",
+          "uri": "",
+          "uri_hash": ""
+        }
+      ],
+      "send_enabled": []
+    },
+    "circuit": {
+      "account_permissions": [],
+      "disabled_type_urls": []
+    },
+    "consensus": null,
+    "distribution": {
+      "params": {
+        "community_tax": "0.100000000000000000",
+        "base_proposer_reward": "0.000000000000000000",
+        "bonus_proposer_reward": "0.000000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "epochs": {
+      "epochs": [
+        {
+          "identifier": "day",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "86400s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        },
+        {
+          "identifier": "hour",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "3600s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        },
+        {
+          "identifier": "minute",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "60s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        },
+        {
+          "identifier": "week",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "604800s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        }
+      ]
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "genutil": {
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "AlxVoy ⚡ ANODE.TEAM",
+                  "identity": "ABE84D0AB09AB589",
+                  "website": "https://anode.team",
+                  "security_contact": "alxvoy@anode.team",
+                  "details": "The AlxVoy Validator Team"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1d92px2ztm2ma7la53whlxydhp2snxvqtkh7vhy",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "NFSb6zKHFWSC+1H//SAxKARmRtLygtpVdRsr1ZbRG4Y="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "422222222"
+                }
+              }
+            ],
+            "memo": "e65eb6a50062295c66ae9363fcfe516bc44ed935@162.220.162.178:26856",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A5I+vzabaVYG56woFLst/gerkYXdveLaNnpZCUstDE8l"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "tFVuo79U9OvWJrMyxsaLA9gNz9Jhm2K0BGL9I+nfB0prBgawn+Ou6L4srZ6KKFvKVpBEO0EyPmlyTPRYZiD4DQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "AuroraX",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper10r2gldax2d4e43d2ynsrkwtkrwdwgac7eq2ffv",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "PD4Q06oBpDQmqjdOYdMrzxh6cBlAMLImXTcF119qp3o="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "499000000"
+                }
+              }
+            ],
+            "memo": "e8568a1009f4388ab8fee3d4e93892eb4a442742@95.216.102.253:28656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A/QIvWJlBl2Fm6AOoVDFFdLQ8GA8GAAE/BMk2hMMXoir"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "kAjOb6wjjaBgwzFAFPIcPp61SEhGEJuSQrDKFIQZNaM83Zkc0DqWEMeYhNRYKtnVZGrjVRhaYxNo07wRrF1oKQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "BoyGau",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1fefmaqrd3f9vczv8q5hw8e6enqvmq4q44hdm3f",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Bchgk00CdorzIwV+t6R7AlWjsNYnacAJZbp1RYekX40="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "623c5deb53c403e3ba47c4c38acf8d5b01880e46@14.245.162.193:26656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AkHwsnNrx65gD/PP9kPiYtnCt/BR6zlSPkmaWYBiXVZU"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "J7aUQSdBrdBfO6EMHYtNN3A8ja/fzX7liFftpTMZ/J9/WbAgR/CdK/xQiST2KJEvsiU0ST0hctk8jVKB50Iukg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ChainTools",
+                  "identity": "1857FF1BC2EA6A69",
+                  "website": "https://chaintools.tech",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper12c3yau37q092fdzdt7fumd5tth4d5s4chrnrfu",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "YwYUPIfI5Ce5oFz71qK21hpEwJVE9nXpB/RqpqXku7M="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "f39ff67d8eea53d27f477b36b2064617c14056d1@5.39.74.170:26747",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "As7N0Kiby+gYOd8wHi2ZM43PPRLmAt0X9ui1NS8+tBg5"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "3I5nM8K1DbggNI/uosKptF8KWqRtxysPYau3Sf9zeqEL+mp4D0LvXm2rzcQEimdQDwcS5zbmNBofH+Gom+XaIQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Chicharito",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1ky7kx7gmxy2vn53kjl9lntdfhcqyp8a4e7nle8",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "NaJSjYEBt4SalWcYHdZ74h6Y7eDebBGKnWEWoxZ6yqo="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "d900d6e950a50240b7c5c992cfec19d7573486ad@65.109.79.185:12656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A8ILCYDH4n9lc/ZHPxEnqgGdhjX83qQKx8fORNvVFL4a"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "ldZLSnnTGkc92IbzDQ6Pkg6+RArFJyULmi3LmtlxQv1DP+6yBsKoO0OMLL0Yzrawum/rmzWcVsG3o/09MuFF+w=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "CodeBlockLabs",
+                  "identity": "E1ADDC27DCE641C2",
+                  "website": "https://codeblocklabs.com",
+                  "security_contact": "",
+                  "details": "Empowering Blockchain & Supporting The Decentralization"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper139yqf5jqqdgltcsupakxja4j67fpu44t4zd8g5",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "yy7UGQc6QSX1YV2Kef6rhEQOGtC6o9HTECRTQMiBFak="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "8c643958e00bba5da4f214e9232854b32b7f0328@65.109.32.61:23656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AqlFZ9car3FehlIWhisFix0w4xUJXIFDmaUqNp5bfXxN"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "+bygbdXchQVoyD24HPP4zgQ4CV4VfDy86e48u70R1S9WpKZY2HoZeb7dZ36aYbrJ+RFIJ3TlG2beiZDvVLZ9eg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Conqueror",
+                  "identity": "EAD22B173DE57E6A",
+                  "website": "https://www.conqueror.dev/",
+                  "security_contact": "conqueror@conqueror.dev",
+                  "details": "Stake with me"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1u7pv6av3zwexzu6na0t8a8wwgwc0dazhppzx5v",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "L1sMqe4r9nTE8pYbWGjGel4+KkgmDw+0vyltbJ7kFmU="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "dda5832a3713bb720867792488457a39b0dd9ae9@65.109.106.214:15656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "ArqyGb/EFh/2KDwD3JmtxlCEvPi4jjRDCM9I4qZt//+U"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "XYtgZAJQMQs6MqH6GBDwMupLyn4UMtJX81qY9XfK9S8XfzS5NQL6GXBn8hO1SlKoFFhKG+rAW8oSNkjwIqm7Gw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "CoreNode",
+                  "identity": "5067F2E06F7E7599",
+                  "website": "https://corenodehq.com",
+                  "security_contact": "corenodehq@gmail.com",
+                  "details": "https://github.com/Core-Node-Team"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1txn5z0tczq8hulcc8a003w74956275zj6lsgwx",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "GCVZ40YNfQ05Xw8Sluo/FEa93XwsIuOQoiqvxcY+WwQ="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "cf9279136cfc9c77ba8d52b01eed75af43c5a803@213.109.163.99:26656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AtGyCnL+LOPuITiYgyk2ueisZvx6x068ReOJ5clfJhqb"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "6p8W/tatfs8mjoAX8IuKPcdV0JSNaEe+RV+dK4tI4kEoOSKFuPLC/IixiIKtsQ+ZYeBbCHE9haDRLjMQqovGfQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Fluxen | Indonode",
+                  "identity": "58527185D1DD91F8",
+                  "website": "https://indonode.net",
+                  "security_contact": "contact@indonode.net",
+                  "details": "Your Trusted Proof of Stake Validator, IBC Relayer, On-Chain Services provider on Cosmos Ecosystem with High Security & Superior Uptime!"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper14h9hpvhpnssgha94uuhsvuc5xmzmkv2rh257sz",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "2R0oHxscJXYyqN8WED2NQmqxxwe3SNlJIbw7hKCFwu0="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "5e8e44eed91b07ee1bd49fa86c0e65fb4fd30e9a@116.202.218.189:33656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Ags+GgHfq5lZSlLtgfkC94ft3sANxCUn+efabMVx40/w"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "CKHwREGiSriBNxehzkejy8ogrInGQOmRQ2O2h5odewlM8ZBiTn20/S6dOD9zBI9XjacXsVDvHy2+YXNJUNfVpg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Grand Valley",
+                  "identity": "B2633E3B09412D90",
+                  "website": "https://grandvalleys.com",
+                  "security_contact": "letsbuidltogether@grandvalleys.com",
+                  "details": "Fervent Proof of Stake Validator delving deep into the intricate web of decentralized networks. #letsbuidlWorrelltogether"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1mejj0a2mwtl4hnkqqpqzxuux6uvrmxhlmllsep",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "4r2Omk2Ado/3FAwhBB8+hFqDRjB/o2psDAfFPW8IT7w="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "26e2b87253b4ffd7d7645c5fb6bce7cb3c2a7dc0@217.182.203.161:18656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A9JbbAykafbr0inzfa9jHsMDS7G++4uDp+eUBMDCzbVb"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "L0xtpO80cweC5mVhRZn1X/2wCp0chB3dcIpAzqtgsJQi1gaYkEc03KF9RYaZ9x/mb/fKsiwPP1GD0scKvYr2Tg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "HazenNetworkSolutions",
+                  "identity": "7D2F3AADEBDA49A6",
+                  "website": "https://www.hazennetworksolutions.com",
+                  "security_contact": "haznftofficial@gmail.com",
+                  "details": "Enterprise Grade Validation | DevOps & Infrastructure Services"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper15knmn6jdz42q5hv36x8l9t4kkpsjmg4nshezfz",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "EQy6dujKIwzfHArDT2B2QUeuLhLIfegCGJ2WlY8lEww="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "c983b0037c3f8228472d967e1fe47afe44662ec8@176.9.3.249:54656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A0C7CL1I9aIuksKiROnVHFQ3a9Ljk4Q0ePyWE0PkkFze"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "ntsp8YYO8rGDIrp7diQurKAHpJAukPkmOTY70QBJQj0HnOhT1nup/aktB+gCBWV5jq1khDfxUvVY0iEIz9iQ9A=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "HusoNode",
+                  "identity": "546C4A18944D2DBE",
+                  "website": "https://husonode.xyz",
+                  "security_contact": "contact@husonode.xyz",
+                  "details": "Yours Validator"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1txve0qa4d4v29expjvrfraah89atsk9u4p27fy",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "E+40RpLHCI6nc44BcfA0D/V4KLnxvDjYD26GAwR8pbw="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "ae0c3ff02dea9fd6c1e516962967a55ba632f691@149.50.96.58:13656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A0LGzzyce9cPbyp/jplg7XVBbRkpL8Jd/+t9kSwZC5ng"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "daGjlvLfZ3XDRLKkN1ziMBG1pajQQAwml2WcXZdFjBk6gGWGW+TZ+YlBFzfv1orkXf6GAc2i9RvG+gkjbf4quQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ITRocket",
+                  "identity": "D36EEB12E5B1B11A",
+                  "website": "https://itrocket.net/",
+                  "security_contact": "",
+                  "details": "Enterprise-level infrastructure and state-of-art tools for node operators, developers and analysts."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1k0fpwgzku4953l3sllsynk3fpfw37wfvc5w3se",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "rv/M1X4INHOgDuP9aGo0Wkipv5dVGTi41KOk8TIs0d8="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "9acb36597e260e50ecd3e58639bd19540c9dc00a@1.2.3.4:26656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A2Ui/66WV9yf5Yzftd0sxoXbizVmxHedS2SeFRYXKC5i"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "bA6IFEj22z6oAzpsoScfz3LuL5RgkPzO5rX5zT/vbGAScQqh/5pDvpsnort6AIBeisB0fcQzbfQtUAZgjZ2OMQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "KaLaMuC",
+                  "identity": "",
+                  "website": "https://www.kalamuc.xyz/",
+                  "security_contact": "",
+                  "details": "KaLaMuC Validator"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1j8043c3r3y43wcm539xhgvdemc69vhajymn3ug",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "0MwdTZkFrbPn/AaqaDmjPbE6xKzu3J01i28HjhTdaro="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "e773fd59ac9dfc0c0a6911f50db4a3508d2ddc85@135.181.78.21:48656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A+s8Tu6RLVqSPGU1aBEIncLH7ZKtQmJI+9KNrVsaHIvS"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "OY1i7cpvtTjHn1RJUa3h+nwVtg9aakkxSX4RLJXJYzw7yFG4u03zm6gAOAiYI1qlpCmOhmn3ap89css1JV3C8w=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Kynraze",
+                  "identity": "70628370E0CFC771",
+                  "website": "https://kynraze.com",
+                  "security_contact": "contact@kynraze.com",
+                  "details": "Staking Services & Proof-of-Stake Network Validator | Stake Earn Repeat."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper15e9krru9gf9vcvpsfra7wd2y3mvnyg4k4d0l0m",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "10tzvxXEE6xlL6gwaxJqmoCOecba5feRAVwIn5TcWHg="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "2e37560c21962cd63e464f0fb73847696a41a107@195.3.222.20:31656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AidxYk9Qg+mjU8eautTRegM7YQPIWSXZ0KU4zqKf0N5S"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "JvAqlE3ae/OwucSLuWB5KlTFpXMC3NbJnADNx2S9ERVwGsZvDPiBM20AsCap7Aaulz4yd5g8dFtsmWOK/Yh3Ig=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "M256",
+                  "identity": "B21F8B566C2FB29B",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1x8j2rmwpqmfk9wu3hkc8kl7dwqjmykuvnexms0",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "85TnFIh5dw4gfKbrPslp5UcJ2Wx2aP6n5iJon2niGYI="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "1165a44596f33bed17f86a6eba62f8c9b6226ad3@159.69.70.55:46656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A8AB93UqMsvQFXahagI4kGF7XIZeXEaiOE2mmJWnY0fk"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "3jFS4DfnEZmn6xlZKnHFb5ierO620ygZQIczk4+jK0hRXNVfKfq6RUJqc2W9O4XaP7ru5tyIgLphtPDIqkmqHw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "MictoNode",
+                  "identity": "",
+                  "website": "https://mictonode.com",
+                  "security_contact": "info@mictonode.com",
+                  "details": "MictoNode validator"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1sqy5tgp8nl2rwz6yzrmpzt66ak4ywx24zkkn8w",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "v4XHd62ihggpHsuzuw44UCvNPVYdyVgx1Dxy2JBUmWY="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "247cb878da58325fa588c5fd5a2deea7f92a0ca7@65.108.198.182:13056",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AhB/B2mkMGrL16AdeolV4bZ5AcXxSwa2wBqJ6DbYB+RX"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "iihWys2DT2dxJvGfesUBmqNfRLZNSkpUBeDoWWKDJXwfgGmYKKWaB1/QhWLbwlDW/quXVx1Apizeovi4PCEivw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Milos-VPS",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1mw9eslp6q89qarmgwvgxd7tmnnux8hn0el4f83",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "SaJqrgKl9LrY3JcXJG5tijO+JWnLbAKwXxXgWG6Rfew="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "0214b02a4a153b261ef5a0e8fd78ef1942650609@152.53.113.111:26656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Az0DMNL8uWkFLMsYK4+SVZcPOFtvKVQ3IE4tQxjaphdy"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "YYSItKlIWpP89euUsgs4L5835I9OW8NONAAjIUZFSn0xnL71r5PCMTRbXlFRqf7f6sGQuHSDwhOqODLpmAbzmQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "NodeSafe",
+                  "identity": "F492A8D46AEA02AB",
+                  "website": "http://explorer.nodesafe-app.xyz",
+                  "security_contact": "cryptogemfunds@gmail.com",
+                  "details": "Trusted Proof of Stake Validator, IBC Relayer, and On-Chain Services Provider in the Cosmos Ecosystem"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1tdggnucuajwj0u36lfvnz8vp4m995le4wug324",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Ca3FVPl/CWr9p961cqrmEo06qkmQcJg9tznCZU9XPVA="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "0a9c0fe041baedd32e99fa9251a247f0c3edcfcb@117.1.193.44:34656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AlTyPEfaj5KbGn5XB00QPb37IKvQpr3/lOE14LJdjZPj"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "AtyCRted74vbyljJuvmZOzG+oaeEDA+PWDX17/YkhHNvXUs2tUR8KHk0O/Fr0gB5MGg6cY99DKiOBz3DJ05OHA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "NodeStake",
+                  "identity": "94EFE192B2C52424",
+                  "website": "https://nodestake.org",
+                  "security_contact": "info@nodestake.org",
+                  "details": "NodeStake is a professional validator, infrastructure provider and IBC relayer. ⚛️7*24h Services | https://twitter.com/Nodestake_top"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1glwq06kg6rhjyg2xqdtnpwyd29mkga3jn5muqu",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "oOR09f+vDsGVCl0B+98XYNUgSFKm/RtVu723HpDRP4M="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "ebcdc8b0d7e9bbe904a45330ca73a6a29c539fca@46.37.123.240:26656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A+sJOHCbp3WfsW+ZVtW+w6IBisRfFD+AsFdGjOo25Nkm"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "dmNFKrmUjONrWPpBFMLSDa5GURJh62QlNNjiKMqOXtcZnxMqo6Fa8l0bzepJ9nRa1BrYTe+zZxNBJbHs/tz8Qw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "OneNov",
+                  "identity": "09F974A66062BDCC",
+                  "website": "https://onenov.xyz/",
+                  "security_contact": "",
+                  "details": "Secure, reliable and committed to decentralization"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper15pjlz65mr5fg33lsve26n4anuw8jclegft8xm9",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "w8Uaf+MH0qskYMiIzNZeiLvk4M6Y0FPEn9lMJZ8Ajgc="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "d735c6c8f0a39b3907a7c9496910c1212fa91124@155.133.22.148:12666",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AvHON5EbN8Y7sxjMRZ8YPs/47TYmSSOymURps5sz5NnJ"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "aCxTBLMrgDCijID78hEb+E9DbRBhGWKfO7PNVzrkLq9fBd/ByIOURztbn9X2MwgJfGI61bM0EVqJP12IDZbR+A=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "OshVanK",
+                  "identity": "17E09C468EDFE232",
+                  "website": "https://oshvank.xyz",
+                  "security_contact": "info@oshvank.xyz",
+                  "details": "Professional validator operating since 2019 across mainnet and testnet ecosystems. Specialized in PoS networks, IBC infrastructure, and chain services. Active on 70+ networks with enterprise-grade infrastructure."
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper15sf2gye5g6aacl3rkm6kf43fwjcwv0wfd5dqyr",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "eRUEjJwU6Tn1KAEqfFfALGwDfinM3Vt7iJRJECTOGbI="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "3da86abc4798d88978a735be6dd225ca76b07c80@157.180.97.166:17656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A4NbZNPMM5FUJ21E2urbld+2KXj/t25dB/5YyPfbwMR0"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "PgaLmbBb8p0TrrZszrEx/W3NQRAkbPomS2/m8wujL452rLZqVdZPQwAExgJdnV2XfxsgCHoxChYMcsnKMqqyHw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "PureNodes",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper192kfc5rpmq7c965jz9xm0wl6ceegp2yyflflxu",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "1lu+qfWjkYQCLkINAE2LsgtgrAZ56B4TrvLGkxneF1M="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "2f0ee3e8e8ef6a1608ae0b56959b181c0b200fce@84.247.191.83:26656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AqUvjKWbVBJH+rJCjQC4WtZKeUj1kPJZYiqLeZx41fO6"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "g1eV3nFRzXpnq4p2tUt/XfOcHhKvMmFPe95qAqhMykB0bD5yYWXeJ8nGQigUIOuf3r6eqzsyiTF3FPtGT777fw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "STAKRspace",
+                  "identity": "3C6A1BE4909A1E46",
+                  "website": "https://stakr.space",
+                  "security_contact": "stakr.space@gmail.com",
+                  "details": "Make your crypto great again!"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper19e7tuhm9pksaemt6nx9239q5uekj2pa0p00pjs",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "EDKRVC3WIJ15ZKwCAbhMJEeMzj9wcCArxn9DbKrPbXo="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "7a90f78f2b188b24ab26ef25989d61d1a66fb237@88.198.67.189:48656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AqvxkyxAN2A02KW9BGRL3B7A1fo1p7x6aQGvK3PZcD61"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "kqHqOVrAK/I7YmUdwBN5ogrjgciiJJKRDnrosoZ9HkYr/GjARTSym2o9cg5Eq2YAeEha3xqMMjwe0snVTbnkIA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "StingRay",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1wnah30wg0tzy2rf46try2n9pqtaxtzvd9xa08q",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Se48B3zRYUDGXCMsv+mP0LXndtRIDiojzbhlgbSewFo="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "f64d968215a6920a1c3fb6614aa226def5b705cf@176.9.66.48:24656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A33q4rwMJVqcwUyqdapm2/5B7jYwVAq3/uDP3f3nAvQR"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "+1ceXsZ25hQyjpWDeNL8XupGdOAqIW9r6kdSW1WWM3ZaLuK4h59T5asumznWPzTGzP3qB/jgPMFioSbIKZXHMA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "UTSA",
+                  "identity": "A0B5FF00B5460153",
+                  "website": "https://utsa.gitbook.io/services",
+                  "security_contact": "",
+                  "details": "Professional validator, infrastructure provider, and developer of public blockchain tools focused on reliability, security, and usability"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1mewc5qy0ejpa5njlq7tapzz2a4fgzqfktwedaw",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "ZcmruoYfbI/uWDXQ2Bc2IU6FGjbb+FL3pEJHUMPZqEA="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "fb46eb5d08cc7dcd02c1dd4081dc302dd20d875b@65.108.111.225:56656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Aua3jSIlhjZJSBrQbCoOT5VcbNVD9QWZZhCDGJT6gJ5m"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "Lj6WsjbJrqcRUFTHMdeEoipTduAl8rUCmYTQv45Hb68z3c47vZ2WbovkKNHVYAlSUN9eiAWJHZVw3LbRm3XYJw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "VALIDARIOS",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1h6exyuxnhlrp5c6cvvj5sp3699sk6qv4jmquty",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "zXc9Kl0iWFPJ8yJSnXPNW2/PWovW2gBuvoVdtXW4qsQ="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "5e1090413624af04913281a1654d8484cb8e15da@134.249.78.12:27656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A+EqPHb90+ZOJNyJOSQ956wRQFsQKYET6KiOWkENY+g5"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "myDq9vnRFSp5kYSZC3xbyoVwo502+tC5gjgP8ZaVmdxrOUBTtdeESt4lR/EHEQRXoJSXJNSiivSodaMa8noVsQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Vinjan.Inc",
+                  "identity": "7C66E36EA2B71F68",
+                  "website": "https://vinjan-inc.com",
+                  "security_contact": "",
+                  "details": "Staking Provider-IBC Relayer"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "1.000000000000000000",
+                  "max_change_rate": "1.000000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper16fujrjhztcg0pgplpud2skgffrknefsdyvqxxz",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Gq48mq60mrs4a08D7W5JclOytjeLEDeK8rRyH/7alUk="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "2854a4d49777143958a97cc970fb704a3a2025a2@95.216.102.220:58856",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A391yPLrV40Oq6f/a8VlyngYkxD6AAx77Nxdb8Owv3qf"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "T6L2Vhdp/Vo8ci4N6x1GK4In9QN6/YNULHHIZMNjXhly4OVUa1yr2+w/zGL3FV8v8e4vf1pNGvnl1VOz5FLqmw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "XSSLABS",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper10cr0zvxsk0llu6c5l4fe9de4wsgglzmw4w3qu8",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "2gPXD/Or+E6AtwaeKrWTVaPXEOeRX531AMTWlg/cTkA="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "7279ac816e753627628c0d05c5877516b4392195@65.109.95.109:26656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A0V/ma2TC73X0WH26ceqWV1jxKcnwRjPktdaul3+MQgl"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "HScf2a4mqPwzbCmoLhUE8WPFM68x/t9iWYt/PWZGCA0uYL//qcdPOWwTZHTsgatNbnkLPZ7blN3kjLILQE+3yg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ZeycaNode",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1qk3892z6k2hmsqmezp28gxvnr7wk9g3h89uxey",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "4Fs3l927UKoT+rMveS47NHympI78waeL4PWXrkU9G/4="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "55055be4f0255b057cf060e4ea238dfc925b31ba@185.16.39.172:45656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Ao16W/83ZHXLz+a1WfU38B7FVhE+GCRUDmU3ZH/xBVYo"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "C72OTMJr+Cobm79op3qPM6EjCRPIwT006pj4gAGjCvhsxitE5AEEVcbvpziogaPGVisoTlLf4so6tM3kntaPrw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "airSintez",
+                  "identity": "F0655DEF468411B6",
+                  "website": "https://airsintez.gitbook.io/services",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper129nxxp06kv00f4r54u7tflauqsvn35e66es0pf",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "APNsBQEp6Ekana1tRTLFX4IZqWjJ2i+o0qOTeTiZZXQ="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "f6397b82bebdef728a4fe360e8bf2ae5768b3661@46.38.251.47:47656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AhzGwr5eoFVH7BynYwXhzwd/hMaHS32QgGWWiX36hPnl"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "wG6kaZFQnibcH8LjqAhLm9sURVvKAfOlIk757kkxFlQipGcnckdlvR8PHsBFUzrJxovSs53iLEoen+HqaJCe5g=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "crptcpchk",
+                  "identity": "45451A436C366619",
+                  "website": "https://crptcpchk.com",
+                  "security_contact": "https://x.com/the01100011",
+                  "details": "Blockchain Validator | psi.crypto"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1g0q5l96u5m8697c68gdecy7c7turfxgzprmpdk",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "k8b1xAjaB1P2Gv9x38CqLHjsZkDS9vuvWgykHnkw3Zg="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "498000000"
+                }
+              }
+            ],
+            "memo": "9641e3a98552517eef163d54e9f6e3aff2333e73@202.61.201.53:28656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AjrHBC9XA3sHdeiuOge7n6oosUK8OndEdjH+E3KJ0y1+"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "M5r9hnH7BkM6KEMBEGbmY6lGhfN+yaFs2mnSCERfAZ9ycZ5iy0/qAfNz3SN71JFxi07b6LPvkP25174KU/x4MA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "dnsarz",
+                  "identity": "7ED45AAE67A1CDD5",
+                  "website": "https://dnsarz.net",
+                  "security_contact": "aidil@dnsarz.net",
+                  "details": "if I die before I wake, I pray the Lord my soul to take"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1v7jdqgzrctc75hewrve6c23g0vkh3f3gqq0jaz",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "VCXFvBycKrB1QWwRK6jREDas1mc8lOuDedb0JYNpbAY="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "a9e4a2a948c3a907642e082111e6d6c965cab16f@192.168.100.105:26656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AspKWbrbPknswGdopnYZp6SwVpWI8yFBsz4aGwrz3ZgD"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "hAJeWQF2QeYbT6Qj64rD1cAo8KvLfcC+mw1wx6GswZIolYJ2uTfEP/HjTFjLM/tzaAdNLLQDOoE7kM8baWaAug=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "MekongLabs",
+                  "identity": "BF8CA45CC0B2EF52",
+                  "website": "https://mekonglabs.com",
+                  "security_contact": "jeremy@mekonglabs.tech",
+                  "details": "Professional trusted validator"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.100000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1y6zju7cyd04whfqytfnuhe3waryg8arrkzmpcq",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "NqVhL4if7RUEkjK7ZszSZKhKxcylWGLfrQOoEcWz7iM="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "1b4da4cdc8d8f91b49cc0dcddef09c79f064e9f3@65.21.135.111:15656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "ApxZdQKUnE/DtYmhX0Q0MaWTqqeJEsinLxa36wLTSIis"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "pZ1d27NlULCB8V9W20mUtBg8xWi+GesV726esisoE5hK5MI3Ypfwchh1h+G/4kLfp2aw/iHNUJdROoerEoqoKg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "henry",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.250000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper17cmj0rdk49fq0m5fkxzf2jlhynhkrx5v900zds",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "LrRawYivf6i12xXQvQJs8EuIpmVy4Nqhly/VRW+qXtw="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "20000000000000"
+                }
+              }
+            ],
+            "memo": "4ae3601a733c88a1b8f377774ff197dbd3e377c6@144.91.82.147:26656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Ao9lzW5NiuO78+v4UzLE4uSI2Mzhfm3Ay6pjCg/NEq89"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "8vK9PTpb7f7fB8H5zMudGhOz3yLiZWIZGtnp4yP5SzY7NK+JvA5llXwOV5abUy/hzl6q/5lpOXCP67D+423JwQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "NODESYNC",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1mtdd4v5vnal4e9jzgy9tqkga747x38lk9dym9v",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "mDY86HRSMB9FISx/wd/dUmAIJocr5CD8Gv45m8jDUNo="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "ec35a94742c5e3bbdbaea64ef35b7e98f8642667@42.119.242.229:26656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Am8EFp/p8Jz4djPr0FIwigLXycm2hADe9e1o+ibbWkMW"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "OyGC0uhAMa8Gv6H9wKgL7aHUVMW0f38cppw7tb7UWlJie/ZgbfgcZU3armPyWbZ9Dhdv1RnRE8/3VmmQMzL9xA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "jackieluong",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.250000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1774m8jl6nlht8h8eqlzed6e3kg07dsf23hugx4",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "7CcFm/WBSpi6A5bR7bMYi9ItcB0LEWKKv+dT6+yh96o="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "c095de08403858f75df2fc319cafe2e8df4616f9@192.168.1.137:26656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Aoe6UuUZaKTbHwTyI1CNGF8xtMFzlGSGsT3lSQudkh6k"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "va8BF48t1UX511ML84ir+Mr451OP3ZHoEZJOIMSUnFsT8hV+FLIQaGjLRrVh2qnckTGCFYgoZOVMZMmC9RPtww=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "pi69",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1n85az56umg4p4shtnuf45dpdhmrtfqznyjwuv4",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "5RWMZZu5Lbu9vBGd7uIpLfzGpGMN2qm9StQVttYEOXI="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "215685ef1062a31998c290b9dae533e9c3482412@2a00:1d34:c880:a701:7459:e67b:b3bc:fde5:13656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AqILLTtR1McL7qByKYRu5F20RGAymbZ3wtsxJ44v1ebA"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "XUWwpxHoEdOeqINOytwwdJhUZmcwhoiyODKj3ZUdKq0TyT1lhCvHB6luyfFVelSGseRROEKryI0oOWtn/ci/XA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "ruangnode",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper138rqtjrjv9aj5upn5zaa0zcy0p3trl62qy8fk8",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "2DS2nHyO4eb5TJ5RyvFDQNLS5VG+GF4NgjXS92Pr8HA="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "a73e762fc28c0db67e0c062b2ef37b76f9dbfc36@135.181.115.154:18656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AsiBN9SFeytnPbnn+ehKrMhliqiQqpBdy8aRoQN/Cq6h"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "3h1btrwFFOwCyhDd2jHtrbik3kDMTF3mCILoZgHXWBMF6j35jwzQ8WLPZKhRLcoqLERccivwPHwAU2ooXMdrcw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Sr20de",
+                  "identity": "42CEDE6C4852EE59",
+                  "website": "https://sr20de.xyz/",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper130y2ua2kftp5u59ldj67l2m2djraxzw22z5exk",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "KT42c/kDvS+lTzf27/Yn9SMW3KAGt9YAP/Hz1FiR1qQ="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "9708f774b1fec951c75544fde5b1b90070a355cc@95.217.43.94:60556",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A9k2XrafXs8/rThfamnVfAHNQlKBLf5LUFjq8Mb7mBXH"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "lx8hiOqu31hRhh4IePfpFklhEWiru9hR2ndzt2X2c0ZZHganjq1ejEyQohZTLMCuqoEBZfJKHPP38J0XPWBKFw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "umbralarc",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper18caymk7fre47ysaea3u4u9pum8aw52syylsjva",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "oRAKtS8Q4yLq3w53tO39jyytUy1B8UNT/uUY9c4doKc="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "08fbf0749147154cc407b70fb534beb9f651c233@2.27.41.223:36656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AsMZvqWWGA9eFvjWzpH95nyk/kWTKAGuxqHJyZ+RLH9X"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "WmM1GlxczWFBVenob8q8xYegZ3p29QhUDR33577OVdhPk8KbpMf7IqDgN6njfagfQaeaqk+2cS98aoSs101Opw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validatorsg",
+                  "identity": "668B74C2B01FBE62",
+                  "website": "https://www.validatorsg.com",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper14my3wqrak6xw8tlpe0nr5yg0k2w745e8nqrts4",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "B3ClVro1XtdKl5ULs8Hs6kufMaJ+5dd+uniFKfQSCVM="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "bdc6033a5240f0d2a2a109eca979f595b744eea9@14.224.218.56:26658",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A84PMZU3w3Gpv3mCDXW0cxAOH8omBjq0tO8Fe/E9bLOV"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "gGkFcgMGeaDwq5JQo4TjXt3opLrHXE9AGTioy2+q4bJA3Yvrw1McCRQm9ITZIYhbW0VFQQb1RDbZjWFtyVbJ0g=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "waj_worrell",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper14ewmpfk37vgtwjwhev4h89fjdglj6fekcu9gv6",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "BqKpX5q4dcAjzjjX2XbJgI6a16ZpIBumRfGGiKuqW6w="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "8e2aba280a91fa52e1a840c4c8c65bf29962e8fd@162.250.190.64:28656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A4DqWN8wTfCanLNhaZzPGLRFppUcWlJ2Y3zDryiLEsUI"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "jhGlwUDiskasWsHjA8+XwMaFDCjDZlgYFmg24st+y7RkGcg9bZVGV6PXP6BNE99QkUjd7eodrrixLIb7l8FFfA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "walkonwayvs",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1jfdc89zl2ufktg22e0wpj3yselpax3pxhsc95m",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "oBs/sPldtP5UEhfx4QoFVAANYlxwyPzDh9jaSts2Tbk="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "eaa0482235766fe294f96a0cd0204ac932d6b4e6@159.89.97.29:26656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AwHKgcypVEdZFT7tJCWbzgRdyeMuPbtVUfYUX/GtrL8c"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "POaLKnOFEROSakjvnPUQkeJ/HbzHX+IpDMGroArbo6YTkARgrhPhX+97CtFIYnbXV8vUSxVMyGekNNBFbOQTqw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "worrell-validator",
+                  "identity": "9720CEB76CFFD15C",
+                  "website": "http://gentx.duckdns.org",
+                  "security_contact": "",
+                  "details": "Worrell Validator & Public Infrastructure Provider"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1000000",
+                "delegator_address": "",
+                "validator_address": "worrellvaloper1y8kw89rcputshws772gmqqh63z4s3dfv4h92ar",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "RpAuYOUJB3+zYBRIh2uKIqp5/7Y6Qbz/8QvG342LzUA="
+                },
+                "value": {
+                  "denom": "uworrell",
+                  "amount": "495000000"
+                }
+              }
+            ],
+            "memo": "c30b07da4ef1564201a0ab02557c8fbf15ebc02a@gentx.duckdns.org:27656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Am+foWt4Ws/R9jURVgV9wJSVQ2obI0rKUaUWBC+/rAg7"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "tOPvqZiIcGiupUNhgMCK/t/kCFxi9WtxgIURkxYEny45fyIr/aItOpEnjLZzeZ6GUbVYOa30ayV/9hQ0qGd1DQ=="
+          ]
+        }
+      ]
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": null,
+      "voting_params": null,
+      "tally_params": null,
+      "params": {
+        "min_deposit": [
+          {
+            "denom": "uworrell",
+            "amount": "1500000000"
+          }
+        ],
+        "max_deposit_period": "1209600s",
+        "voting_period": "604800s",
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000",
+        "min_initial_deposit_ratio": "0.000000000000000000",
+        "proposal_cancel_ratio": "0.500000000000000000",
+        "proposal_cancel_dest": "",
+        "expedited_voting_period": "86400s",
+        "expedited_threshold": "0.667000000000000000",
+        "expedited_min_deposit": [
+          {
+            "denom": "uworrell",
+            "amount": "7500000000"
+          }
+        ],
+        "burn_vote_quorum": true,
+        "burn_proposal_deposit_prevote": false,
+        "burn_vote_veto": true,
+        "min_deposit_ratio": "0.010000000000000000"
+      },
+      "constitution": ""
+    },
+    "group": {
+      "group_seq": "0",
+      "groups": [],
+      "group_members": [],
+      "group_policy_seq": "0",
+      "group_policies": [],
+      "proposal_seq": "0",
+      "proposals": [],
+      "votes": []
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": []
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
+      },
+      "client_v2_genesis": {
+        "counterparty_infos": []
+      },
+      "channel_v2_genesis": {
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "async_packets": [],
+        "send_sequences": []
+      }
+    },
+    "interchainaccounts": {
+      "controller_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "ports": [],
+        "params": {
+          "controller_enabled": true
+        }
+      },
+      "host_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "port": "icahost",
+        "params": {
+          "host_enabled": false,
+          "allow_messages": []
+        }
+      }
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.130000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "uworrell",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.130000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "nft": {
+      "classes": [],
+      "entries": []
+    },
+    "params": null,
+    "runtime": null,
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "10000",
+        "min_signed_per_window": "0.050000000000000000",
+        "downtime_jail_duration": "43200s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.000100000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "259200s",
+        "max_validators": 100,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "uworrell",
+        "min_commission_rate": "0.050000000000000000"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denoms": [],
+      "params": {
+        "send_enabled": false,
+        "receive_enabled": false
+      },
+      "total_escrowed": []
+    },
+    "upgrade": {},
+    "vesting": {},
+    "worrell": {
+      "params": {}
+    }
+  },
+  "consensus": {
+    "params": {
+      "block": {
+        "max_bytes": "22020096",
+        "max_gas": "40000000"
+      },
+      "evidence": {
+        "max_age_num_blocks": "100000",
+        "max_age_duration": "259200000000000",
+        "max_bytes": "1048576"
+      },
+      "validator": {
+        "pub_key_types": [
+          "ed25519"
+        ]
+      },
+      "version": {
+        "app": "0"
+      },
+      "abci": {
+        "vote_extensions_enable_height": "0"
+      }
+    }
+  }
+}

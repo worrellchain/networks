@@ -190,25 +190,48 @@ Only after that test the final `genesis.json` is published in this folder, toget
 sha256 and the list of persistent peers taken from the gentx memos. The hash is posted on
 Telegram and in GitHub Discussions.
 
+### Final genesis (published 7 November 2026)
+
+| | |
+|---|---|
+| File | [`genesis.json`](genesis.json) |
+| sha256 | `ed4555669ba42158ee97a59d9f4b527f8491833848a3e2440d38d127f89a018a` |
+| `genesis_time` | 2026-11-10T08:00:00Z |
+| Genesis validators | 45: the founder node and 44 operators |
+| Peers | [`peers.txt`](peers.txt) |
+
+The 44 gentx are the files in [`gentx/`](gentx/). The genesis was started on a test node
+with the v0.2.0 binary before publication: all 45 signatures verify.
+
 ## Step 7. Before the start
 
 ```bash
 curl -s https://raw.githubusercontent.com/worrellchain/networks/main/worrell-testnet-2/genesis.json \
   -o $T2_HOME/config/genesis.json
-sha256sum $T2_HOME/config/genesis.json     # must match the published hash
+sha256sum $T2_HOME/config/genesis.json
+# ed4555669ba42158ee97a59d9f4b527f8491833848a3e2440d38d127f89a018a
 ```
 
-Edit `$T2_HOME/config/config.toml` and `$T2_HOME/config/app.toml`:
+Set the persistent peers from [`peers.txt`](peers.txt) (one peer per line) in
+`$T2_HOME/config/config.toml`:
+
+```bash
+PEERS=$(curl -s https://raw.githubusercontent.com/worrellchain/networks/main/worrell-testnet-2/peers.txt | paste -sd, -)
+sed -i "s|^persistent_peers = .*|persistent_peers = \"$PEERS\"|" $T2_HOME/config/config.toml
+```
+
+And the minimum gas price in `$T2_HOME/config/app.toml`:
 
 ```toml
-# config.toml -> [p2p]
-persistent_peers = "4ae3601a733c88a1b8f377774ff197dbd3e377c6@144.91.82.147:26656"
-# app.toml
 minimum-gas-prices = "0.025uworrell"
 ```
 
-The peer above is the founder's node. The full list of peers, taken from the gentx memos, is
-published together with the final genesis; add them to `persistent_peers` as well.
+`peers.txt` holds the founder's node (`4ae3601a733c88a1b8f377774ff197dbd3e377c6@144.91.82.147:26656`)
+and 40 of the 44 operator peers from the gentx memos. Four memos carry an address other nodes
+cannot dial (private, placeholder or malformed) and are left out; those validators are in the
+genesis and connect outward on their own. Your own node is in the list too, which is harmless.
+Do not copy the memos straight from the genesis: a malformed address in `persistent_peers`
+stops the node at start.
 
 Do not touch `priv_validator_key.json`: it must be the key your gentx was created with.
 Cosmovisor is recommended but not required for the start.
@@ -246,6 +269,7 @@ when creating the gentx.
 |---------|---------------|
 | `signature verification failed` at start, chain does not move | A gentx in the genesis was signed for another chain ID or account. The coordinator removes it and republishes; do not start with an unpublished genesis. |
 | Genesis sha256 does not match | Download again from this repository; do not edit the file. |
+| `could not add peers from persistent_peers field: invalid address` | An entry in `persistent_peers` is malformed. Use the list in `peers.txt` (step 7). |
 | Node starts but does nothing before launch | Expected: it waits for `genesis_time`. |
 | `account ... does not exist` when running `gentx` | Run `add-genesis-account` first (step 3), in the same home. |
 | `the provided denom ... does not match` | Initialize with `--default-denom uworrell` (step 2). |
@@ -258,8 +282,8 @@ when creating the gentx.
 - `gentx/`: gentx files submitted by pull request during the window.
 - `setup-genesis.sh` and `setup-multisig.sh`: scripts used by the coordinator to build the genesis
   (not needed to join; do not run them).
-- `genesis.json`, `chain.json`, `assetlist.json`: added when the final genesis is published and
-  after the start.
+- `genesis.json`: the final genesis. `peers.txt`: persistent peers, one per line.
+- `chain.json`, `assetlist.json`: added after the start.
 
 ## Questions
 
