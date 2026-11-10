@@ -11,7 +11,7 @@ The node source code (`worrelld`) is in
 | Network | Folder | Chain ID | Status |
 |---------|--------|----------|--------|
 | Testnet 1 | [`worrell-testnet-1/`](worrell-testnet-1/) | `worrell-testnet-1` | Active until 24 November 2026 |
-| Testnet 2 | [`worrell-testnet-2/`](worrell-testnet-2/) | `worrell-testnet-2` | Genesis published; starts 10 November 2026, 08:00 UTC (see the [guide](worrell-testnet-2/README.md)) |
+| Testnet 2 | [`worrell-testnet-2/`](worrell-testnet-2/) | `worrell-testnet-2` | Running since 10 November 2026, 08:00 UTC (see the [guide](worrell-testnet-2/README.md)) |
 
 ## worrell-testnet-2: genesis ceremony
 

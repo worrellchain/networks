@@ -54,7 +54,7 @@ Same as mainnet, with one exception: the unbonding period is 3 days instead of 2
 | Max validators | 100 |
 | IBC | closed at genesis (no light clients allowed, transfers disabled, interchain accounts host disabled) |
 | Minimum gas price | `0.025uworrell` |
-| Faucet | 100 WORRELL per request; one request per address, at most 3 per IP and 300 in total every 24 hours (address published at launch). Tokens obtained from the faucet carry no weight in anything: there is no founder delegation on this testnet and participation is recorded per operator, not per stake |
+| Faucet | `POST http://144.91.82.147:4500` with `{"address":"worrell1..."}`. 100 WORRELL per request; one request per address, at most 3 per IP and 300 in total every 24 hours. Tokens obtained from the faucet carry no weight in anything: there is no founder delegation on this testnet and participation is recorded per operator, not per stake |
 
 ## Step 1. Install worrelld v0.2.0
 
@@ -254,6 +254,21 @@ worrelld q staking validator $(worrelld keys show <key-name> --bech val -a --hom
 
 Your validator should be `BOND_STATUS_BONDED` from block 1. Who was online at the start,
 who joined late and who did not appear is recorded per operator.
+
+### Joining after the start
+
+Validators that are not in the genesis join with a normal `create-validator`: initialize the
+node (step 2), download the genesis and set the peers (step 7), start the node and let it
+sync, request tokens from the faucet (see the parameters table) and then:
+
+```bash
+worrelld tx staking create-validator validator.json --from <key-name> --chain-id worrell-testnet-2 \
+  --gas auto --gas-adjustment 1.5 --gas-prices 0.025uworrell --home $T2_HOME
+```
+
+`validator.json` takes the same values as the gentx in step 4: `pubkey` from
+`worrelld comet show-validator --home $T2_HOME`, `amount` up to what the faucet gave minus
+fees (for example `95000000uworrell`), moniker, commission rates and `min-self-delegation`.
 
 ## Running next to a testnet-1 node
 
