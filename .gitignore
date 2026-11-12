@@ -1,0 +1,7 @@
+# Editors, assistants and OS
+.idea/
+.vscode/
+.claude/
+CLAUDE.md
+.mcp.json
+.DS_Store
