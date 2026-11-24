@@ -5,9 +5,9 @@ send a signed genesis transaction (gentx) during a sign-up window, the final gen
 is built from those transactions and published, and every node starts at the same time.
 
 The purpose of this testnet is to rehearse that coordinated start. Governance, IBC and
-coordinated upgrades were already exercised on `worrell-testnet-1`, which keeps running until
+coordinated upgrades were already exercised on `worrell-testnet-1`, which ran until
 24 November 2026, two weeks after the start of this network. Activity on `worrell-testnet-1`
-is recorded until that date.
+was recorded until that date.
 
 Joining is open to every validator. There is no selection for this testnet. Participation
 is recorded per operator (who signed up, who was online at launch, who stayed).

@@ -10,7 +10,7 @@ The node source code (`worrelld`) is in
 
 | Network | Folder | Chain ID | Status |
 |---------|--------|----------|--------|
-| Testnet 1 | [`worrell-testnet-1/`](worrell-testnet-1/) | `worrell-testnet-1` | Active until 24 November 2026 |
+| Testnet 1 | [`worrell-testnet-1/`](worrell-testnet-1/) | `worrell-testnet-1` | Closed on 24 November 2026. Kept for reference |
 | Testnet 2 | [`worrell-testnet-2/`](worrell-testnet-2/) | `worrell-testnet-2` | Running since 10 November 2026, 08:00 UTC (see the [guide](worrell-testnet-2/README.md)) |
 
 ## worrell-testnet-2: genesis ceremony
@@ -21,9 +21,13 @@ time. Joining is open to every validator. Dates (UTC), parameters and the step-b
 procedure are in [`worrell-testnet-2/README.md`](worrell-testnet-2/README.md). Gentx files go
 to [`worrell-testnet-2/gentx/`](worrell-testnet-2/gentx/) by pull request (window: 27 October
 to 6 November 2026, 10:00 UTC; network start: 10 November 2026, 08:00 UTC). `worrell-testnet-1`
-keeps running until 24 November 2026.
+closed on 24 November 2026.
 
-## Join worrell-testnet-1
+## worrell-testnet-1 (closed)
+
+`worrell-testnet-1` closed on 24 November 2026 and is no longer maintained. The details below
+are kept for reference only: the faucet is stopped, and the endpoints, explorers and services
+listed were run by the community and may no longer respond.
 
 | Field | Value |
 |-------|-------|
@@ -34,7 +38,7 @@ keeps running until 24 November 2026.
 | Genesis sha256 | `a81c507b12ba0678c3172394ff4bb03e1c3db60050cc5568c127a24ec19378fd` |
 | Persistent peer | `bb9164c1bd9ed9ff2c0fd9e09b23285698e231de@164.68.98.186:26656` |
 | Min gas price | `0.025uworrell` |
-| Faucet | `POST http://164.68.98.186:4500` with `{"address":"worrell1..."}` (500 WORRELL) |
+| Faucet | Stopped |
 | Validator announcements | Telegram [t.me/worrellvalidators](https://t.me/worrellvalidators) — upgrades, governance, coordination |
 | Explorers | [test.anode.team/worrell](https://test.anode.team/worrell) (community-run by [ANODE.TEAM](https://anode.team)) · [explorer.oshvank.xyz/worrel-testnet](https://explorer.oshvank.xyz/worrel-testnet) (community-run by [OshVanK](https://oshvank.xyz)) · [explorer.husonode.xyz/Worrell-Testnet](https://explorer.husonode.xyz/Worrell-Testnet) (community-run by [HusoNode](https://husonode.xyz)) · [explorer.nodesync.top/Worrell-Testnet](https://explorer.nodesync.top/Worrell-Testnet) (community-run by [NODESYNC](https://nodesync.top)) · [explorer.bonynode.online/worrell-testnet](https://explorer.bonynode.online/worrell-testnet) (community-run by [BonyNode](https://bonynode.online)) · [explorer.sychonix.com/Worrell-Testnet](https://explorer.sychonix.com/Worrell-Testnet) (community-run by [Sychonix](https://sychonix.com)) · [explorer.onenov.xyz/worrell-testnet](https://explorer.onenov.xyz/worrell-testnet) (community-run by [OneNov](https://onenov.xyz)) · [explorer.codeblocklabs.com/worrellchain-testnet](https://explorer.codeblocklabs.com/worrellchain-testnet) (community-run by [CodeBlockLabs](https://codeblocklabs.com)) · [explorer.utsa.tech/networks/worrell-testnet](https://explorer.utsa.tech/networks/worrell-testnet) (community-run by [UTSA](https://utsa.gitbook.io/services)) · [explorer.vinjan-inc.com/worrell-testnet](https://explorer.vinjan-inc.com/worrell-testnet) (community-run by [Vinjan.Inc](https://vinjan-inc.com)) · [eserckr.xyz/explorer/worrell](https://eserckr.xyz/explorer/worrell) (community-run by [ESERCKR](https://eserckr.xyz)) · [explorer.dnsarz.net/Worrell](https://explorer.dnsarz.net/Worrell/) (community-run by [dnsarz](https://dnsarz.net)) · [explorer.nodestake.org/worrell-testnet](https://explorer.nodestake.org/worrell-testnet) (community-run by [NodeStake](https://nodestake.org)) · [testnet.explorer.stakr.space/worrell](https://testnet.explorer.stakr.space/worrell) (community-run by [STAKR.space](https://stakr.space)) |
 | Public REST API | `https://worrell.api.t.anode.team` (community-run by ANODE.TEAM) · `https://worrell-testnet-api.itrocket.net` (community-run by ITRocket) · `https://worrell-testnet-api.nodesync.top` (community-run by NODESYNC) · `https://worrell-testnet-api.bonynode.online` (community-run by BonyNode) · `https://api-worrell.test.onenov.xyz` (community-run by OneNov) · `https://worrellchain-apitest.codeblocklabs.com` (community-run by CodeBlockLabs) · `https://t-worrell.api.utsa.tech` (community-run by UTSA) · `https://api-worrell.dnsarz.net` (community-run by dnsarz) · `https://testnet.worrell.api.srv.stakr.space` (community-run by STAKR.space) |

@@ -6,6 +6,7 @@
   "pretty_name": "Worrell Testnet",
   "website": "https://worrellchain.com",
   "network_type": "testnet",
+  "status": "killed",
   "bech32_prefix": "worrell",
   "daemon_name": "worrelld",
   "node_home": "$HOME/.worrell",
