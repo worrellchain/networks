@@ -54,7 +54,7 @@ Same as mainnet, with one exception: the unbonding period is 3 days instead of 2
 | Max validators | 100 |
 | IBC | closed at genesis (no light clients allowed, transfers disabled, interchain accounts host disabled) |
 | Minimum gas price | `0.025uworrell` |
-| Faucet | `POST http://144.91.82.147:4500` with `{"address":"worrell1..."}`. 100 WORRELL per request; one request per address, at most 3 per IP and 300 in total every 24 hours. Tokens obtained from the faucet carry no weight in anything: there is no founder delegation on this testnet and participation is recorded per operator, not per stake |
+| Faucet | The faucet is closed at the moment. `POST http://144.91.82.147:4500` with `{"address":"worrell1..."}`. 100 WORRELL per request; one request per address, at most 3 per IP and 300 in total every 24 hours. Tokens obtained from the faucet carry no weight in anything: there is no founder delegation on this testnet and participation is recorded per operator, not per stake |
 | Explorers | [xplr.crptcpchk.com/worrell-t2](https://xplr.crptcpchk.com/worrell-t2) (community-run by [crptcpchk](https://crptcpchk.com)) · [explorer.bonynode.online/worrell-testnet-2](https://explorer.bonynode.online/worrell-testnet-2) (community-run by [BonyNode](https://bonynode.online)) |
 | Public REST API | `https://worrell-api-t2.crptcpchk.com` (community-run by crptcpchk) · `https://worrell-testnet2-api.bonynode.online` (community-run by BonyNode) |
 | Public RPC | `https://worrell-rpc-t2.crptcpchk.com` (community-run by crptcpchk) · `https://worrell-testnet2-rpc.bonynode.online` (community-run by BonyNode) |
